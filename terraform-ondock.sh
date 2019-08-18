@@ -16,6 +16,4 @@ fi
 user=$(id -u):$(id -g)
 if contains_hyphen $@; then
   docker exec -i -u ${user} ${NAME} $(basename $0) $@
-else
-  cat | docker exec -i -u ${user} ${NAME} $(basename $0) $@
 fi
