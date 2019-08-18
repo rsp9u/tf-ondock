@@ -3,7 +3,7 @@ tf-ondock
 
 # Description
 
-After installing this, you can use `terraform` command transparently on the docker host.
+After installing this, you can use `terraform` & `tflint` commands transparently on the docker host.
 
 # Prerequisite
 
